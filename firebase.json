@@ -1,26 +1,7 @@
 {
-  "apphosting": [
-    {
-      "backendId": "tracklaunchbackend",
-      "rootDir": "/",
-      "ignore": [
-        "node_modules",
-        ".git",
-        "firebase-debug.log",
-        "firebase-debug.*.log",
-        "functions"
-      ]
-    },
-    {
-      "backendId": "tracklaunchbackend",
-      "rootDir": "/",
-      "ignore": [
-        "node_modules",
-        ".git",
-        "firebase-debug.log",
-        "firebase-debug.*.log",
-        "functions"
-      ]
-    }
-  ]
+  "apphosting": {
+    "source": ".",
+    "region": "us-central1",
+    "serviceAccount": "service-309945859287@gcp-sa-firebaseapphosting.iam.gserviceaccount.com"
+  }
 }

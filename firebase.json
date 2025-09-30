@@ -1,6 +1,8 @@
 {
   "apphosting": {
-    "source": ".",
+    "backends": {
+      "tracklaunchbackend" : {
+        "sourceDirectory": ".",
     "region": "us-central1",
     "serviceAccount": "service-309945859287@gcp-sa-firebaseapphosting.iam.gserviceaccount.com"
   }
